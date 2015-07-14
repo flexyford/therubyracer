@@ -17,6 +17,9 @@ extern "C" {
     Object::Init();
     Primitive::Init();
     Number::Init();
+    Integer::Init();
+    Int32::Init();
+    Uint32::Init();
     String::Init();
     Function::Init();
     Script::Init();

@@ -20,7 +20,9 @@ extern "C" {
     Integer::Init();
     Int32::Init();
     Uint32::Init();
+    Name::Init();
     String::Init();
+    Symbol::Init();
     Function::Init();
     Script::Init();
     ScriptOrigin::Init();

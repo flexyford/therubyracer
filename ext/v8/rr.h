@@ -44,7 +44,9 @@ inline VALUE not_implemented(const char* message) {
 
 #include "external.h"
 // This one is named v8_string to avoid name collisions with C's string.h
+#include "name.h"
 #include "rr_string.h"
+#include "symbol.h"
 
 #include "script.h"
 #include "script-origin.h"
